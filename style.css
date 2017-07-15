@@ -3,6 +3,8 @@ body{
   flex-direction: row;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+  color: #FFFFFF;
 }
 
 section{
@@ -38,27 +40,50 @@ article{
   background-color: #3F51B5;;
   margin: 0;
   border: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
+.box{
+    display: flex;
+    flex-direction: column;
+  }
+
 .box2{
   background-color: #4CAF50;
+  display: flex;
+  flex-direction: column;
 }
 .box3{
   background-color: #303F9F;
+  display: flex;
+  flex-direction: column;
 }
 .box4{
   background-color: #ff3d00;
+  display: flex;
+  flex-direction: column;
 }
 .box5{
   background-color: #3F51B5;
+  display: flex;
+  flex-direction: column;
 }
 .box6{
   background-color: #4CAF50;
+  display: flex;
+  flex-direction: column;
 }
 .box7{
   background-color: #303F9F;
+  display: flex;
+  flex-direction: column;
 }
 .box9{
   background-color: #4CAF50;
+  display: flex;
+  flex-direction: column;
 }
 .box8{
   width: 100%;
@@ -71,4 +96,53 @@ img{
 .aussiepic{
   width: 100%;
   height: 100%;
+}
+h1{
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 0;
+  font-size: 150%;
+}
+p{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+button{
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  text-decoration: none;
+  font-size: 12px;
+  color: #FFFFFF;
+
+}
+
+.btn1{
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  justify-content: flex-start;
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+.smallimg{
+  height: 50%;
+}
+
+.textbelow{
+
 }
