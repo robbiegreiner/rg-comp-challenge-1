@@ -52,6 +52,7 @@ article{
   font-weight: lighter;
   line-height: 150%;
   letter-spacing: 1px;
+  font-size: 115%;
 }
 
 .box2,.box6,.box9{
@@ -84,13 +85,13 @@ h1{
   margin-left: 5%;
   margin-top: 10%;
   margin-bottom: 0;
-  font-size: 150%;
+  font-size: 200%;
   letter-spacing: 2px;
   font-weight: 800;
 }
 p{
   margin-left: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 button{
@@ -183,8 +184,17 @@ input[type=radio]:checked:after{
   visibility: visible;
   border: 2px solid white;
 }
+@media only screen and (max-height:870px){
+  h1{
+    font-size: 150%;
+    margin-top: 5%;
+  }
+  .headp{
+    font-size: 16px;
+  }
+}
 
-@media (max-width: 900px){
+@media only screen and (max-width: 900px){
   body{
     flex-direction: column;
   }
@@ -196,7 +206,7 @@ input[type=radio]:checked:after{
   }
 }
 
-@media (max-width: 583px){
+@media only screen and (max-width: 583px){
   article{
     width: 49.5%;
     border: 1px solid black;
@@ -207,5 +217,34 @@ input[type=radio]:checked:after{
   body{
     background-color: #3F51B5;
   }
-
 }
+
+@media only screen and (max-width: 434px){
+  article{
+    width: 99.5%;
+    border: 1px solid black;
+  }
+  .headbox{
+    width: 100%;
+  }
+  body{
+    background-color: #3F51B5;
+  }
+  h1{
+    font-size: 100%;
+  }
+  .headp{
+    font-size: 12px;
+  }
+}
+/*@media only screen and (max-height: 420px){
+  h1{
+    font-size: 50%;
+  }
+
+  /*.btn1,.btn2{
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 35px;
+  }*/
+}*/
